@@ -1,0 +1,72 @@
+
+h1{
+    font-family: Segoe UI;
+	font-weight: bolder;
+	font-size: 200%;
+}
+h2{
+    font-family: Segoe UI;
+	font-weight: bolder;
+	font-size: 150%;
+	margin-top: 40px;
+}
+p{
+    font-family: Segoe UI;
+	font-weight: bolder;
+	font-size: 150%;
+    color: #FFDCFF;
+}
+h3{
+    font-family: Arial Black;
+	font-weight: bolder;
+	font-size: 300%;
+	margin-top: 40px;
+	text-align: center;
+	color: #DC143C;
+}
+li{
+    font-family: Segoe UI;
+	font-size: 150%;
+    color: #FFDCFF;
+}
+table { width: 100% }
+
+a {color:#DC143C; text-decoration:none}
+
+h1 img { margin-bottom: -45px; }
+
+h3 img { margin-bottom: -65px; }
+
+body {}
+
+#slideshow {
+  overflow: hidden;
+  height: 797px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 3600px;
+  animation: slide 10s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 797px;
+  width: 1200px;
+}
+
+.slide:nth-child(1) {}
+
+.slide:nth-child(2) {}
+
+.slide:nth-child(3) {}
+
+@keyframes slide {
+  20% {margin-left: 0px;}
+      30% {margin-left: -1200px;}
+      50% {margin-left: -1200px;}
+      70% {margin-left: -2400px;}
+      80% {margin-left: -2400px;}
+}

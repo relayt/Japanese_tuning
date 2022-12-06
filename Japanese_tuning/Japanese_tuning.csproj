@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8A1E0A3F-F3B6-4AF5-80AE-F1EDBEC7B578}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Japanese_tuning</RootNamespace>
+    <AssemblyName>Japanese_tuning</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormEntr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEntr.Designer.cs">
+      <DependentUpon>FormEntr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGrachan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGrachan.Designer.cs">
+      <DependentUpon>FormGrachan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKyusha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKyusha.Designer.cs">
+      <DependentUpon>FormKyusha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLiberty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLiberty.Designer.cs">
+      <DependentUpon>FormLiberty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLoading.Designer.cs">
+      <DependentUpon>FormLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrder.Designer.cs">
+      <DependentUpon>FormOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReg.Designer.cs">
+      <DependentUpon>FormReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRocketB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRocketB.Designer.cs">
+      <DependentUpon>FormRocketB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormShakotan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShakotan.Designer.cs">
+      <DependentUpon>FormShakotan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSummary.Designer.cs">
+      <DependentUpon>FormSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVIP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVIP.Designer.cs">
+      <DependentUpon>FormVIP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormYanky.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormYanky.Designer.cs">
+      <DependentUpon>FormYanky.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormEntr.resx">
+      <DependentUpon>FormEntr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGrachan.resx">
+      <DependentUpon>FormGrachan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKyusha.resx">
+      <DependentUpon>FormKyusha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLiberty.resx">
+      <DependentUpon>FormLiberty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLoading.resx">
+      <DependentUpon>FormLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrder.resx">
+      <DependentUpon>FormOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReg.resx">
+      <DependentUpon>FormReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRocketB.resx">
+      <DependentUpon>FormRocketB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormShakotan.resx">
+      <DependentUpon>FormShakotan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSummary.resx">
+      <DependentUpon>FormSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVIP.resx">
+      <DependentUpon>FormVIP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormYanky.resx">
+      <DependentUpon>FormYanky.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Pictures\Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Pictures\Label.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
